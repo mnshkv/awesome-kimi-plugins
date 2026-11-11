@@ -36,6 +36,48 @@ Curated list companion: [hashgraph-online/awesome-ai-plugins → Kimi Plugins](h
 |---|---|---|
 | [**HTML/CSS to Image API**](https://github.com/htmlcsstoimage/agent-plugins) | Capture live website screenshots, render HTML/CSS into images or PDFs — no browser management. | `/plugins install https://github.com/htmlcsstoimage/agent-plugins` |
 
+## 🧪 Testing & Browsers
+
+| Plugin | What it does | Install |
+|---|---|---|
+| [**chrome-devtools-mcp**](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools from Kimi Code: performance traces, network inspection, console, DOM debugging and screenshots against a live Chrome. Ships a `.kimi-code-plugin` manifest from the Chrome DevTools team. | `/plugins install https://github.com/ChromeDevTools/chrome-devtools-mcp` |
+
+## 🛠️ Workflow & Skills
+
+| Plugin | What it does | Install |
+|---|---|---|
+| [**superpowers**](https://github.com/obra/superpowers) | A battery of workflow skills — brainstorming, systematic debugging, TDD, planning — with Kimi tool-name remapping built in. | `/plugins install https://github.com/obra/superpowers` |
+| [**KimiQB**](https://github.com/alicankiraz1/KimiQB) | Vibecoding-first planning: interrogates the task, keeps specs and checklists honest before code gets written. | `/plugins install https://github.com/alicankiraz1/KimiQB` |
+| [**kimi-code-statusbar-plugin**](https://github.com/arsfy/kimi-code-statusbar-plugin) | Extra TUI status-bar metrics: tokens/sec, prompt-cache hit rate, plan usage windows. | `/plugins install https://github.com/arsfy/kimi-code-statusbar-plugin` |
+| [**kimi-context-optimizer**](https://github.com/egorfedorov/kimi-context-optimizer) | Cuts redundant reads and weak prompts using wire.jsonl ground truth — 63% measured token savings. | `/plugins install https://github.com/egorfedorov/kimi-context-optimizer` |
+
+## 🔒 Security
+
+| Plugin | What it does | Install |
+|---|---|---|
+| [**npmscan-mcp-plugin**](https://github.com/salemalem/npmscan-mcp-plugin) | NPMscan security scanning of npm dependencies: vulnerabilities, malicious-code signals, upgrade advice. | `/plugins install https://github.com/salemalem/npmscan-mcp-plugin` |
+
+## ☁️ Cloud & Backend
+
+| Plugin | What it does | Install |
+|---|---|---|
+| [**CloudBase AI Toolkit**](https://github.com/TencentCloudBase/CloudBase-AI-Toolkit) | Tencent CloudBase backend from Kimi Code: database, auth and cloud functions via plugin, skills & MCP. | `/plugins install https://github.com/TencentCloudBase/CloudBase-AI-Toolkit` |
+| [**convex-kimi-plugin**](https://github.com/convex/convex-kimi-plugin) | Official Convex plugin: scaffold and build Convex + Next.js apps with a reactive, type-safe backend. | `/plugins install https://github.com/convex/convex-kimi-plugin` |
+| [**Neon agent-skills**](https://github.com/neondatabase/agent-skills) | Neon serverless Postgres: schema design, database branching and SQL from your agent. | `/plugins install https://github.com/neondatabase/agent-skills` |
+
+## 🎬 Media & 3D
+
+| Plugin | What it does | Install |
+|---|---|---|
+| [**@remotion/kimi-code-plugin**](https://github.com/remotion-dev/kimi-code-plugin) | Official Remotion skills: programmatic video in React — animations, captions, audio, 3D. | `/plugins install https://github.com/remotion-dev/kimi-code-plugin` |
+| [**kimi-blender-mcp-plugin**](https://github.com/artmediastudio/kimi-blender-mcp-plugin) | Control Blender from Kimi Code: scene building, modeling and rendering over MCP (wraps blender-mcp). | `/plugins install https://github.com/artmediastudio/kimi-blender-mcp-plugin` |
+
+## 🤝 Multi-agent
+
+| Plugin | What it does | Install |
+|---|---|---|
+| [**codex-plugin-kimi-code**](https://github.com/winmin/codex-plugin-kimi-code) | Delegate from Kimi to OpenAI Codex: second-opinion reviews, custom prompts, parallel tasks. | `/plugins install https://github.com/winmin/codex-plugin-kimi-code` |
+
 ## Contributing
 
 1. Your repo must expose `kimi.plugin.json` (or `.kimi-plugin/plugin.json`) and be installable with `/plugins install <github-url>`.
