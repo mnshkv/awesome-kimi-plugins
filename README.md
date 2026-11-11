@@ -56,6 +56,50 @@ Curated list companion: [hashgraph-online/awesome-ai-plugins → Kimi Plugins](h
 | Plugin | What it does | Install |
 |---|---|---|
 | [**npmscan-mcp-plugin**](https://github.com/salemalem/npmscan-mcp-plugin) | NPMscan security scanning of npm dependencies: vulnerabilities, malicious-code signals, upgrade advice. | `/plugins install https://github.com/salemalem/npmscan-mcp-plugin` |
+| [**kimi-security-guidance-plugin**](https://github.com/mnshkv/kimi-security-guidance-plugin) | Per-edit and per-commit security checks for agent-generated code: 25 regex dangerous-pattern warnings, an OWASP vulnerability rubric on the session diff, and deep agentic commit review (injection, XSS, SSRF, secrets, IDOR, auth bypass, deserialization, path traversal). Anthropic's security-guidance, ported. | `/plugins install https://github.com/mnshkv/kimi-security-guidance-plugin` |
+
+## 🔄 Code Review & Quality
+
+| Plugin | What it does | Install |
+|---|---|---|
+| [**kimi-code-review-plugin**](https://github.com/mnshkv/kimi-code-review-plugin) | Branch→PR→CI→review in one agent run: parallel review subagents, validation-based false-positive filtering, severity reports, optional inline PR comments. Anthropic's code-review, ported. | `/plugins install https://github.com/mnshkv/kimi-code-review-plugin` |
+| [**kimi-code-simplifier-plugin**](https://github.com/mnshkv/kimi-code-simplifier-plugin) | Two-phase code simplification — pick the approach, then refine recent changes for clarity and consistency while preserving exact functionality. Skill or delegatable agent. Anthropic's code-simplifier, ported. | `/plugins install https://github.com/mnshkv/kimi-code-simplifier-plugin` |
+
+## 🚀 Feature Development
+
+| Plugin | What it does | Install |
+|---|---|---|
+| [**kimi-feature-dev-plugin**](https://github.com/mnshkv/kimi-feature-dev-plugin) | Guided 7-phase feature development (discovery → explore → clarify → architect → implement → review → summary) with specialized explorer, architect and reviewer agents. Anthropic's feature-dev, ported. | `/plugins install https://github.com/mnshkv/kimi-feature-dev-plugin` |
+
+## 🎨 Design
+
+| Plugin | What it does | Install |
+|---|---|---|
+| [**kimi-frontend-design-plugin**](https://github.com/mnshkv/kimi-frontend-design-plugin) | Distinctive, intentional visual design when building or reshaping frontend UI: aesthetic direction, typography, palettes, layout, motion and copy that don't read as templated AI defaults. Anthropic's frontend-design, ported. | `/plugins install https://github.com/mnshkv/kimi-frontend-design-plugin` |
+
+## ⚡ Autonomous Loops
+
+| Plugin | What it does | Install |
+|---|---|---|
+| [**kimi-ralph-loop-plugin**](https://github.com/mnshkv/kimi-ralph-loop-plugin) | Autonomous "until all checks pass" development loops (Ralph Wiggum technique) in a single session: work a PRD or checklist, run the checks, self-restart iterations until the completion promise is genuinely true. Anthropic's ralph-loop, ported. | `/plugins install https://github.com/mnshkv/kimi-ralph-loop-plugin` |
+
+## 🧰 Agent Libraries
+
+| Plugin | What it does | Install |
+|---|---|---|
+| [**kimi-agents-plugin**](https://github.com/mnshkv/kimi-agents-plugin) | 202 specialized subagents and 14 skills ported from wshobson/agents: backend & frontend development, DevOps, QA, security, data engineering, ML ops, Stripe integrations, multi-agent teams — the whole Claude Code agent catalog in one plugin. | `/plugins install https://github.com/mnshkv/kimi-agents-plugin` |
+
+## 📣 Marketing
+
+| Plugin | What it does | Install |
+|---|---|---|
+| [**kimi-marketing-skills-plugin**](https://github.com/mnshkv/kimi-marketing-skills-plugin) | 53 marketing skills: copywriting, SEO & AI-search visibility, paid ads, email, CRO, analytics & attribution, pricing, launches, competitor research, go-to-market strategy. Ported from coreyhaines31/marketingskills. | `/plugins install https://github.com/mnshkv/kimi-marketing-skills-plugin` |
+
+## 🎭 Personas & Output Styles
+
+| Plugin | What it does | Install |
+|---|---|---|
+| [**kimi-personas-plugin**](https://github.com/mnshkv/kimi-personas-plugin) | Two answer-style personas: ponytail (lazy senior dev — the smallest complete change, zero over-engineering) and caveman (maximum-terse replies that keep every technical fact), plus review/audit/debt skills and a memory-file compressor. Ports of DietrichGebert/ponytail and JuliusBrussee/caveman. | `/plugins install https://github.com/mnshkv/kimi-personas-plugin` |
 
 ## ☁️ Cloud & Backend
 

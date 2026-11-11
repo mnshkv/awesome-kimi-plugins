@@ -6,144 +6,399 @@
       "displayName": "deja (deja-vu)",
       "description": "Shared local memory for coding agents: recalls past sessions across 43 agents, cross-agent handoff, file blame and error-fix history over MCP.",
       "source": "https://github.com/vshulcz/deja-vu",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "goodmemory",
       "displayName": "GoodMemory",
       "description": "Local-first, auditable cross-session project memory for Kimi Code with scoped recall, traceable provenance and approval-gated writes.",
       "source": "https://github.com/hjqcan/GoodMemory",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "html-css-to-image",
       "displayName": "HTML/CSS to Image API",
       "description": "Let the agent capture live website screenshots and render HTML/CSS into images or PDFs without managing a browser.",
       "source": "https://github.com/htmlcsstoimage/agent-plugins",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "android-studio",
       "displayName": "Android Studio",
       "description": "Android development from Kimi Code: adb, emulators and devices, screenshots, UI automation, Gradle builds and tests, and Android Studio control via the JetBrains MCP server.",
       "source": "https://github.com/mnshkv/kimi-android-studio-plugin",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "agent-desktop",
       "displayName": "Agent Desktop (Computer Use)",
       "description": "Computer Use on macOS: AX-tree with element refs, headless clicks, typing, scrolling, keys and screenshots through 21 MCP tools. Drop-in kimi-cu replacement.",
       "source": "https://github.com/mnshkv/kimi-agent-desktop",
-      "clients": ["desktop"],
-      "platforms": ["macos"]
+      "clients": [
+        "desktop"
+      ],
+      "platforms": [
+        "macos"
+      ]
     },
     {
       "id": "xcode",
       "displayName": "Xcode",
       "description": "Xcode from Kimi Code: builds, tests, SwiftUI previews, simulators and devices, build logs and Apple docs via Xcode's own MCP server (xcrun mcpbridge).",
       "source": "https://github.com/mnshkv/kimi-xcode-plugin",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos"
+      ]
     },
     {
       "id": "chrome-devtools",
       "displayName": "Chrome DevTools",
       "description": "Chrome DevTools from Kimi Code: performance traces, network inspection, console, DOM debugging and screenshots against a live Chrome.",
       "source": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "superpowers",
       "displayName": "superpowers",
       "description": "A battery of workflow skills — brainstorming, systematic debugging, TDD, planning — with Kimi tool-name remapping built in.",
       "source": "https://github.com/obra/superpowers",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "kimiqb",
       "displayName": "KimiQB",
       "description": "Vibecoding-first planning: interrogates the task, keeps specs and checklists honest before code gets written.",
       "source": "https://github.com/alicankiraz1/KimiQB",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "statusbar",
       "displayName": "Status Bar",
       "description": "Extra TUI status-bar metrics for Kimi Code: tokens/sec, prompt-cache hit rate and plan usage windows.",
       "source": "https://github.com/arsfy/kimi-code-statusbar-plugin",
-      "clients": ["cli"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "context-optimizer",
       "displayName": "Context Optimizer",
       "description": "Cuts redundant file reads and weak prompts using wire.jsonl ground truth — 63% measured token savings.",
       "source": "https://github.com/egorfedorov/kimi-context-optimizer",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "npmscan",
       "displayName": "NPMscan",
       "description": "Security scanning of npm dependencies with NPMscan: vulnerabilities, malicious-code signals and upgrade advice.",
       "source": "https://github.com/salemalem/npmscan-mcp-plugin",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "cloudbase",
       "displayName": "CloudBase AI Toolkit",
       "description": "Tencent CloudBase backend from Kimi Code: database, auth and cloud functions via plugin, skills and MCP.",
       "source": "https://github.com/TencentCloudBase/CloudBase-AI-Toolkit",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "convex",
       "displayName": "Convex",
       "description": "Official Convex plugin: scaffold and build Convex + Next.js apps with a reactive, type-safe backend.",
       "source": "https://github.com/convex/convex-kimi-plugin",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "neon",
       "displayName": "Neon Postgres",
       "description": "Neon serverless Postgres from your agent: schema design, database branching and SQL.",
       "source": "https://github.com/neondatabase/agent-skills",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "remotion",
       "displayName": "Remotion",
       "description": "Official Remotion skills: programmatic video in React — animations, captions, audio and 3D.",
       "source": "https://github.com/remotion-dev/kimi-code-plugin",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "blender",
       "displayName": "Blender",
       "description": "Control Blender from Kimi Code: scene building, modeling and rendering over MCP (wraps blender-mcp).",
       "source": "https://github.com/artmediastudio/kimi-blender-mcp-plugin",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "codex-delegate",
       "displayName": "Codex Delegate",
       "description": "Delegate from Kimi to OpenAI Codex: second-opinion reviews, custom prompts and parallel tasks.",
       "source": "https://github.com/winmin/codex-plugin-kimi-code",
-      "clients": ["cli", "desktop"],
-      "platforms": ["macos", "windows", "linux"]
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
+    },
+    {
+      "id": "code-review",
+      "displayName": "Code Review",
+      "description": "Branch→PR→CI→review in one agent run: parallel review subagents, false-positive validation, severity reports, optional inline PR comments.",
+      "source": "https://github.com/mnshkv/kimi-code-review-plugin",
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
+    },
+    {
+      "id": "feature-dev",
+      "displayName": "Feature Dev",
+      "description": "Guided 7-phase feature development (discovery → explore → clarify → architect → implement → review → summary) with specialized explorer, architect and reviewer agents.",
+      "source": "https://github.com/mnshkv/kimi-feature-dev-plugin",
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
+    },
+    {
+      "id": "code-simplifier",
+      "displayName": "Code Simplifier",
+      "description": "Two-phase code simplification — pick the approach, then refine recent changes for clarity and consistency while preserving exact functionality.",
+      "source": "https://github.com/mnshkv/kimi-code-simplifier-plugin",
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
+    },
+    {
+      "id": "security-guidance",
+      "displayName": "Security Guidance",
+      "description": "Per-edit and per-commit security checks: 25 regex dangerous-pattern warnings, an OWASP vulnerability rubric on the session diff, and deep agentic commit review (injection, XSS, SSRF, secrets, IDOR, auth bypass).",
+      "source": "https://github.com/mnshkv/kimi-security-guidance-plugin",
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
+    },
+    {
+      "id": "ralph-loop",
+      "displayName": "Ralph Loop",
+      "description": "Autonomous 'until all checks pass' development loops (Ralph Wiggum technique) in a single session: work a PRD/checklist, run the checks, self-restart iterations until the completion promise is genuinely true.",
+      "source": "https://github.com/mnshkv/kimi-ralph-loop-plugin",
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
+    },
+    {
+      "id": "agents",
+      "displayName": "Agents (wshobson)",
+      "description": "202 specialized subagents and 14 skills from wshobson/agents: backend/frontend dev, DevOps, QA, security, data engineering, ML ops, multi-agent teams — the whole Claude Code agent catalog in one plugin.",
+      "source": "https://github.com/mnshkv/kimi-agents-plugin",
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
+    },
+    {
+      "id": "marketing-skills",
+      "displayName": "Marketing Skills",
+      "description": "53 marketing skills: copywriting, SEO & AI-search visibility, paid ads, email, CRO, analytics & attribution, pricing, launches, competitor research, go-to-market strategy.",
+      "source": "https://github.com/mnshkv/kimi-marketing-skills-plugin",
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
+    },
+    {
+      "id": "frontend-design",
+      "displayName": "Frontend Design",
+      "description": "Guidance for distinctive, intentional visual design when building or reshaping frontend UI: aesthetic direction, typography, palettes, layout, motion and copy that don't read as templated AI defaults.",
+      "source": "https://github.com/mnshkv/kimi-frontend-design-plugin",
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
+    },
+    {
+      "id": "personas",
+      "displayName": "Personas (Ponytail + Caveman)",
+      "description": "Two answer-style personas: ponytail (lazy senior dev — smallest complete change, zero over-engineering) and caveman (maximum-terse replies that keep every technical fact), plus review/audit/debt skills.",
+      "source": "https://github.com/mnshkv/kimi-personas-plugin",
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
     }
   ]
 }
