@@ -1,0 +1,53 @@
+{
+  "version": "2",
+  "plugins": [
+    {
+      "id": "deja",
+      "displayName": "deja (deja-vu)",
+      "description": "Shared local memory for coding agents: recalls past sessions across 43 agents, cross-agent handoff, file blame and error-fix history over MCP.",
+      "source": "https://github.com/vshulcz/deja-vu",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "goodmemory",
+      "displayName": "GoodMemory",
+      "description": "Local-first, auditable cross-session project memory for Kimi Code with scoped recall, traceable provenance and approval-gated writes.",
+      "source": "https://github.com/hjqcan/GoodMemory",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "html-css-to-image",
+      "displayName": "HTML/CSS to Image API",
+      "description": "Let the agent capture live website screenshots and render HTML/CSS into images or PDFs without managing a browser.",
+      "source": "https://github.com/htmlcsstoimage/agent-plugins",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "android-studio",
+      "displayName": "Android Studio",
+      "description": "Android development from Kimi Code: adb, emulators and devices, screenshots, UI automation, Gradle builds and tests, and Android Studio control via the JetBrains MCP server.",
+      "source": "https://github.com/mnshkv/kimi-android-studio-plugin",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "agent-desktop",
+      "displayName": "Agent Desktop (Computer Use)",
+      "description": "Computer Use on macOS: AX-tree with element refs, headless clicks, typing, scrolling, keys and screenshots through 21 MCP tools. Drop-in kimi-cu replacement.",
+      "source": "https://github.com/mnshkv/kimi-agent-desktop",
+      "clients": ["desktop"],
+      "platforms": ["macos"]
+    },
+    {
+      "id": "xcode",
+      "displayName": "Xcode",
+      "description": "Xcode from Kimi Code: builds, tests, SwiftUI previews, simulators and devices, build logs and Apple docs via Xcode's own MCP server (xcrun mcpbridge).",
+      "source": "https://github.com/mnshkv/kimi-xcode-plugin",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos"]
+    }
+  ]
+}
