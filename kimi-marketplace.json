@@ -48,6 +48,102 @@
       "source": "https://github.com/mnshkv/kimi-xcode-plugin",
       "clients": ["cli", "desktop"],
       "platforms": ["macos"]
+    },
+    {
+      "id": "chrome-devtools",
+      "displayName": "Chrome DevTools",
+      "description": "Chrome DevTools from Kimi Code: performance traces, network inspection, console, DOM debugging and screenshots against a live Chrome.",
+      "source": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "superpowers",
+      "displayName": "superpowers",
+      "description": "A battery of workflow skills — brainstorming, systematic debugging, TDD, planning — with Kimi tool-name remapping built in.",
+      "source": "https://github.com/obra/superpowers",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "kimiqb",
+      "displayName": "KimiQB",
+      "description": "Vibecoding-first planning: interrogates the task, keeps specs and checklists honest before code gets written.",
+      "source": "https://github.com/alicankiraz1/KimiQB",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "statusbar",
+      "displayName": "Status Bar",
+      "description": "Extra TUI status-bar metrics for Kimi Code: tokens/sec, prompt-cache hit rate and plan usage windows.",
+      "source": "https://github.com/arsfy/kimi-code-statusbar-plugin",
+      "clients": ["cli"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "context-optimizer",
+      "displayName": "Context Optimizer",
+      "description": "Cuts redundant file reads and weak prompts using wire.jsonl ground truth — 63% measured token savings.",
+      "source": "https://github.com/egorfedorov/kimi-context-optimizer",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "npmscan",
+      "displayName": "NPMscan",
+      "description": "Security scanning of npm dependencies with NPMscan: vulnerabilities, malicious-code signals and upgrade advice.",
+      "source": "https://github.com/salemalem/npmscan-mcp-plugin",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "cloudbase",
+      "displayName": "CloudBase AI Toolkit",
+      "description": "Tencent CloudBase backend from Kimi Code: database, auth and cloud functions via plugin, skills and MCP.",
+      "source": "https://github.com/TencentCloudBase/CloudBase-AI-Toolkit",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "convex",
+      "displayName": "Convex",
+      "description": "Official Convex plugin: scaffold and build Convex + Next.js apps with a reactive, type-safe backend.",
+      "source": "https://github.com/convex/convex-kimi-plugin",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "neon",
+      "displayName": "Neon Postgres",
+      "description": "Neon serverless Postgres from your agent: schema design, database branching and SQL.",
+      "source": "https://github.com/neondatabase/agent-skills",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "remotion",
+      "displayName": "Remotion",
+      "description": "Official Remotion skills: programmatic video in React — animations, captions, audio and 3D.",
+      "source": "https://github.com/remotion-dev/kimi-code-plugin",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "blender",
+      "displayName": "Blender",
+      "description": "Control Blender from Kimi Code: scene building, modeling and rendering over MCP (wraps blender-mcp).",
+      "source": "https://github.com/artmediastudio/kimi-blender-mcp-plugin",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
+    },
+    {
+      "id": "codex-delegate",
+      "displayName": "Codex Delegate",
+      "description": "Delegate from Kimi to OpenAI Codex: second-opinion reviews, custom prompts and parallel tasks.",
+      "source": "https://github.com/winmin/codex-plugin-kimi-code",
+      "clients": ["cli", "desktop"],
+      "platforms": ["macos", "windows", "linux"]
     }
   ]
 }
