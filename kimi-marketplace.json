@@ -64,13 +64,15 @@
     {
       "id": "agent-desktop",
       "displayName": "Agent Desktop (Computer Use)",
-      "description": "Computer Use on macOS: AX-tree with element refs, headless clicks, typing, scrolling, keys and screenshots through 21 MCP tools. Drop-in kimi-cu replacement.",
+      "description": "Computer Use for macOS/Windows/Linux via agent-desktop's built-in MCP server (vercel-labs): every CLI command is a desktop_* tool with a generated schema; headless by default, sandboxes included.",
       "source": "https://github.com/mnshkv/kimi-agent-desktop",
       "clients": [
         "desktop"
       ],
       "platforms": [
-        "macos"
+        "macos",
+        "windows",
+        "linux"
       ]
     },
     {
