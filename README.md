@@ -115,6 +115,7 @@ Curated list companion: [hashgraph-online/awesome-ai-plugins → Kimi Plugins](h
 |---|---|---|
 | [**@remotion/kimi-code-plugin**](https://github.com/remotion-dev/kimi-code-plugin) | Official Remotion skills: programmatic video in React — animations, captions, audio, 3D. | `/plugins install https://github.com/remotion-dev/kimi-code-plugin` |
 | [**kimi-blender-mcp-plugin**](https://github.com/artmediastudio/kimi-blender-mcp-plugin) | Control Blender from Kimi Code: scene building, modeling and rendering over MCP (wraps blender-mcp). | `/plugins install https://github.com/artmediastudio/kimi-blender-mcp-plugin` |
+| [**JANCTION Render**](https://github.com/JasmyLab-JANCTION/janction-render) | Render Blender scenes and 3D models (GLB, FBX, USD, OBJ, STL) on cloud GPUs: a quick preview with a critic and bpy fixes first, then final frames or MP4 turntables; no local GPU, Blender or sign-up. | `/plugins install https://github.com/JasmyLab-JANCTION/janction-render` |
 
 ## 🤝 Multi-agent
 

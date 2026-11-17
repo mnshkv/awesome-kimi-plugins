@@ -253,6 +253,21 @@
       ]
     },
     {
+      "id": "janction-render",
+      "displayName": "JANCTION Render",
+      "description": "Render Blender scenes and 3D models (GLB, FBX, USD, OBJ, STL) on cloud GPUs: a quick preview with a critic and bpy fixes first, then final frames or MP4 turntables; no local GPU, Blender or sign-up.",
+      "source": "https://github.com/JasmyLab-JANCTION/janction-render",
+      "clients": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
+    },
+    {
       "id": "codex-delegate",
       "displayName": "Codex Delegate",
       "description": "Delegate from Kimi to OpenAI Codex: second-opinion reviews, custom prompts and parallel tasks.",
