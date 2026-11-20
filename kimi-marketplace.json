@@ -47,6 +47,14 @@
       ]
     },
     {
+      "id": "brewpage-publish",
+      "displayName": "BrewPage Publish",
+      "description": "Publish HTML, Markdown, static sites, and files from Kimi Code as shareable BrewPage links.",
+      "source": "https://github.com/kochetkov-ma/brewpage-publish-plugins/releases/download/v1.1.2/brewpage-kimi-code-1.1.2.zip",
+      "version": "1.1.2",
+      "sha256sum": "c8bf348161511ae849ab881ccfa39b5e4f7cdb04e02808489af764257e8c7afd"
+    },
+    {
       "id": "android-studio",
       "displayName": "Android Studio",
       "description": "Android development from Kimi Code: adb, emulators and devices, screenshots, UI automation, Gradle builds and tests, and Android Studio control via the JetBrains MCP server.",

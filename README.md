@@ -35,6 +35,7 @@ Curated list companion: [hashgraph-online/awesome-ai-plugins → Kimi Plugins](h
 | Plugin | What it does | Install |
 |---|---|---|
 | [**HTML/CSS to Image API**](https://github.com/htmlcsstoimage/agent-plugins) | Capture live website screenshots, render HTML/CSS into images or PDFs — no browser management. | `/plugins install https://github.com/htmlcsstoimage/agent-plugins` |
+| [**BrewPage Publish**](https://github.com/kochetkov-ma/brewpage-publish-plugins/blob/v1.1.2/kimi/README.md) | Publish HTML, Markdown, static sites, and files from Kimi Code as shareable BrewPage links. | `/plugins install https://github.com/kochetkov-ma/brewpage-publish-plugins/releases/download/v1.1.2/brewpage-kimi-code-1.1.2.zip` |
 
 ## 🧪 Testing & Browsers
 
