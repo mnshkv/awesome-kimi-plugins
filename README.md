@@ -35,6 +35,7 @@ Curated list companion: [hashgraph-online/awesome-ai-plugins → Kimi Plugins](h
 | Plugin | What it does | Install |
 |---|---|---|
 | [**HTML/CSS to Image API**](https://github.com/htmlcsstoimage/agent-plugins) | Capture live website screenshots, render HTML/CSS into images or PDFs — no browser management. | `/plugins install https://github.com/htmlcsstoimage/agent-plugins` |
+| [**ACE Music by Ace Data Cloud**](https://github.com/AceDataCloud/ACEMusicKimiCode) | Generate metered songs and lyrics with an Ace Data Cloud API key and retrieve results by task ID. | `/plugins install https://github.com/AceDataCloud/ACEMusicKimiCode` |
 
 ## 🧪 Testing & Browsers
 

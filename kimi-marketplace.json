@@ -47,6 +47,20 @@
       ]
     },
     {
+      "id": "ace-music-by-ace",
+      "displayName": "ACE Music by Ace Data Cloud",
+      "description": "Generate metered songs and lyrics with an Ace Data Cloud API key and retrieve results by task ID.",
+      "source": "https://github.com/AceDataCloud/ACEMusicKimiCode/tree/ce03881f6560beac65f6678534245d46923f20fd",
+      "clients": [
+        "cli"
+      ],
+      "platforms": [
+        "macos",
+        "windows",
+        "linux"
+      ]
+    },
+    {
       "id": "android-studio",
       "displayName": "Android Studio",
       "description": "Android development from Kimi Code: adb, emulators and devices, screenshots, UI automation, Gradle builds and tests, and Android Studio control via the JetBrains MCP server.",
